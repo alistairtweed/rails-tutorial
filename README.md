@@ -98,7 +98,7 @@ require "bootsnap/setup"
 If you run the `rails s` command now, you should see the following error:
 
 ```
-app/Gemfile not found
+my-app/Gemfile not found
 ```
 
 This is because this file is specified on line 3 in `config/boot.rb` and is referenced while booting the app.
